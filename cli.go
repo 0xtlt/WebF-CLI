@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"./WebF/src/utility"
+	"./WebF-Core/src/utility"
 )
 
 func main() {
