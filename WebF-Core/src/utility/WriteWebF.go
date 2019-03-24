@@ -77,7 +77,7 @@ func WriteWebF(content WebF, output string) {
 			f.Write([]byte{uint8(0x01)})
 			a = make([]byte, 2)
 
-			binary.LittleEndian.PutUint32(a, content)
+			binary.LittleEndian.PutUint16(a, uint16(content))
 			f.Write(a)
 		} else if int(content) < math.MaxUint32 {
 			f.Write([]byte{uint8(0x02)})
