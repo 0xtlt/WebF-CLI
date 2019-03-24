@@ -1,10 +1,10 @@
-package cli
+package main
 
 import (
 	"fmt"
 	"os"
 
-	"./WebF-Core/src/utility"
+	utility "./WebF-Core/src/utility"
 )
 
 func main() {
