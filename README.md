@@ -2,6 +2,9 @@
 
 Official WebF CLI
 
+## Installation
+Download this executable file on this [link](https://github.com/ThomasT404/WebF-CLI/releases/download/0.1-alpha/WebF-CLI.exe)
+
 ## Usage
 
 #### Convert json file in webf file
